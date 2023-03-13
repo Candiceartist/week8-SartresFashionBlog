@@ -1,0 +1,121 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.pageTitle{
+  font-size: 80px;
+  font-weight: 50;
+  text-align: left;
+  margin-left: 2%;
+  margin-bottom: 0;
+  color: rgb(207, 6, 6);
+}
+.subTitle {
+  margin-top: 0;
+  font-size: 35px;
+  font-weight: 50;
+  text-align: left;
+  margin-left: 2%;
+}
+.date {
+  font-weight: 30;
+  font-size: xx-large;
+  text-align: left;
+  margin: 0;
+  color: grey;
+}
+.title {
+  font-weight: 20;
+  font-size: 60px;
+  text-align: left;
+  margin:0;
+}
+.blogText {
+  display: flex;
+}
+.bigLetter {
+  font-size: 80px;
+  font-weight: 50;
+  margin-top: 0;
+  float: left;
+  color: rgb(104, 102, 102);
+}
+
+.link {
+  text-align: right;
+  margin-right:1%;
+  color:rgb(207, 6, 6);
+}
+.wholePost{
+  margin: 20px;
+  margin-right: 20px;
+  margin-top: 40px;
+  width: min-content;
+}
+.blurb {
+  font-weight: 10;
+}
+
+.footerBox {
+  display: flex;
+  justify-content: space-evenly;
+  width: 950px;
+}
+
+.footerText {
+  font-weight: 50;
+  color:rgb(207, 6, 6);
+}
+.copyright {
+font-weight: 50;
+text-align: left;
+margin-left: 5%;
+margin-top: 0;
+color: rgb(152, 149, 149);
+position: relative;
+}
+
+.navBar {
+  display: flex;
+  justify-content: space-around;
+  width: 900px;
+}
+.navItem {
+  color: gray;
+  font-size: 25px;
+  text-decoration:underline ;
+}
